@@ -3,11 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebD</title>
+    <title>Mirai_Endsem</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="hero_Section.css">
     <link rel="stylesheet" href="Saifu.css">
 </head>
 <body>
-    <div class="mainspace">
+    <!-- Sapnil Biswas -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary myyynav">
+  <div class="container-fluid">
+    <img class=my_img src="image 2890.png"
+                    alt="Mirai Logo" class="logo">
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon spaceee"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Vechiles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact us</a>
+        </li>
+      </ul>
+      <span></span>
+      <span class="navbar-text">
+        Need help?<br>
+        +99999-9999-9999
+      </span>
+    </div>
+  </div>
+</nav>
+
+<section class="Hero">
+    <div class="hero_main d-flex justify-content-between align-items-center">
+        <div class="hero_content">
+            <h1 class="hero_title">Experience the road <br> like never before</h1>
+            <p class="hero_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, provident. Id suscipit, nihil neque similique at expedita fugit, soluta nobis corrupti facilis ut quos, facere autem vitae. Sequi ipsa et minus doloremque, sunt eius! Cum numquam neque veritatis eos distinctio eligendi. Rem sunt ad odit dolores voluptas voluptates minima magni. <br>Thank You!!</p>
+            <button class="btn btn-view-all">View all cars</button>
+        </div>
+        
+        <div class="booking_card">
+            <h2 class="card_title">Book your car</h2>
+            <form class="booking_form">
+                <div class="form_group">
+                    <select class="form-select">
+                        <option selected>Car typee</option>
+                        <option value="1">OFF_TOAD</option>
+                        <option value="2">SUV</option>
+                        <option value="3">Luxury</option>
+                    </select>
+                </div>
+                <div class="form_group">
+                    <select class="form-select">
+                        <option selected>Place  of rental</option>
+                        <option value="1">Panvel</option>
+                        <option value="2">Tilakpur</option>
+                        <option value="3">Krishnagar</option>
+                    </select>
+                </div>
+                <div class="form_group">
+                    <select class="form-select">
+                        <option selected>Place of return</option>
+                        <option value="1">Panvel</option>
+                        <option value="2">Tilakpur</option>
+                        <option value="3">Krishnagar</option>
+                    </select>
+                </div>
+                <div class="form_group position-relative">
+                    <input type="text" class="form-control" placeholder="Rental date" onfocus="(this.type='date')">
+                    <i class="bi bi-calendar3 input_icon"></i>
+                </div>
+                <div class="form_group position-relative">
+                    <input type="text" class="form-control" placeholder="Return date" onfocus="(this.type='date')">
+                    <i class="bi bi-calendar3 input_icon"></i>
+                </div>
+                <button type="submit" class="btn btn-book-now w-100">Book now</button>
+            </form>
+        </div>
+    </div>
+</section>
+<!--   SAIFU -->
+  <div class="mainspace">
     <div class="spacebar">
         <div class="sections1">
             <div class="imagee1">
@@ -61,5 +145,10 @@
             </div>
         </div>
     </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
 </body>
 </html>

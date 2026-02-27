@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+body{
+    font-family: 'Inter', sans-serif;
+}
+.Hero{
+padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+.hero_main{
+    /* border: 2px solid red; */
+width: 1296px;
+height: 660px;
+    border-radius:40px;
+    background: url('Group.png') no-repeat right top,url('Imgs.png') no-repeat center bottom 20px,linear-gradient(135deg, #1DB5CD 0%, #486CB3 100%);
+    background-size: contain, 70% auto, cover;
+padding: 0  80px;
+position: relative;
+overflow:hidden;
+}
+.hero_content{
+    max-width: 50%;
+    color: white;
+}
+.hero_title{
+font-size:   64px;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 24px;
+    letter-spacing: -1px;
+}
+.hero_desc{
+    font-size: 18px;
+    opacity: 0.9;
+    line-height: 1.6;
+    margin-bottom: 32px;
+}
+.btn-view-all{
+    background-color: #FF9913;
+    color: white;
+    padding: 12px 32px;
+    border-radius: 12px;
+    font-weight: 600;
+    border: none;
+    transition: all 0.3s ease;
+}
+.btn-view-all:hover{
+    background-color: #e68a10;
+    transform: translateY(-2px);
+    color: white;
+}
+.booking_card{
+    background-color: white;
+    padding: 40px;
+    border-radius: 30px;
+    width: 400px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+.card_title{
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #000;
+}
+.form_group {
+    margin-bottom: 16px;
+}
+.form-select,.form-control{
+    background-color: #F8F9FA;
+border: none;
+padding: 12px 16px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #666;
+}
+.form-select:focus,.form-control:focus{background-color: #F0F2F4;
+    box-shadow: none;
+    outline: none;
+}
+.input_icon{
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #333;
+    pointer-events: none;
+}
+.btn-book-now{
+    background-color: #FF9913;
+    color: white;
+    padding: 14px;
+    border-radius: 12px;
+    font-weight: 700;
+    /* border: none; */
+    margin-top: 10px;
+    transition: all 0.3s ease;
+}
+.btn-book-now:hover{
+    background-color: #e68a10;
+    transform: translateY(-2px);
+    color: white;
+}
+.form-select{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+    background-position: right 1rem center;
+    background-size: 16px 12px;
+}
+.myyynav{
+    border-radius: 10px;
+}
+.my_img{
+    border-radius: 25px;
+}
+.spaceee{
+    width: 30px;
+}
