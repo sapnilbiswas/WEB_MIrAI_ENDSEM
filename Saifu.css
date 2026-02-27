@@ -1,3 +1,4 @@
+
 .sections1{
     /* border:1px solid red; */
     width:25%;
@@ -37,6 +38,11 @@
     padding-right:20px;
     border-radius:25px;
 }
+.imagev:hover{
+    cursor:pointer;
+    scale:1.1;
+    transition:0.3s ease;
+}
 .facts{
     /* border:1px solid purple; */
     padding-top:10%;
@@ -60,6 +66,7 @@
     margin-left: 20px;
     font-weight: bolder;
     font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .tb{
     margin-top:20px;
@@ -70,4 +77,5 @@ h3{
     font-size:xx-large;
     display: flex;
     justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
