@@ -1,0 +1,79 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.matter-sai{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-left:60px ;
+}
+.card-sai{
+    /* border: 1px solid black; */
+    height: 600px;
+    width: 410px;
+    background-color: #FAFAFA;
+    box-shadow: 12px 12px 2px 1px rgba(159, 157, 157, 0.2);
+} 
+.card-sai:hover{
+    scale: 1.01;
+    cursor: pointer;
+}
+.bomma{
+    /* border: 1px solid black; */
+    height: 300px;
+    width: 350px;
+    margin: 5px;
+}
+.solu{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.submater2{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.submater3{
+   /* border: 1px solid black; */
+   width: 370px;
+   height: 60px;
+   border-radius: 20px;
+   margin-left: 10px;
+   margin-top: 40px;
+   background: linear-gradient(135deg, #1DB5CD 0%, #486CB3 100%);
+}
+.submater3:hover{
+    scale: 1.01;
+}
+.dets{
+    margin-left: 135px;
+   
+}
+ .right{
+    float: left;
+}
+.left{
+    
+    float: right; 
+} 
+/* <div class="right">
+                    <span class="headinds">Mercedes</span><br>
+                    <span>swedan</span>
+                </div>
+                <div class="left">
+                    <span class="costs">$25</span>br
+                    <span class="subcost">per day</span>
+                </div> */
+.headinds{
+    margin-bottom: 0cm;
+    margin-top: 1px;
+    padding-left: 20px;
+}
+.costs{
+    padding-right: 20px;
+    font-size: 30px;
+    color: blue;
+}
